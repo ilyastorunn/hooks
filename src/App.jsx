@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import useState from "./pages/useState";
+import State from "./pages/State";
 import Home from "./pages/Home";
 
 
@@ -9,6 +9,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />}  />
+        <Route path="/State" element={<State/>} />
       </Routes>
     </Router>
   );

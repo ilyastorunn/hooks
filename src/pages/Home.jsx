@@ -1,3 +1,5 @@
+import State from "./State";
+
 export default function Home() {
   return (
     <div className="bg-black">
@@ -6,7 +8,7 @@ export default function Home() {
       </h1>
       <div className="flex flex-col items-start justify-center">
         <span className="text-white">State Hooks</span>
-        <a className="text-gray-400" href="/src/pages/useState.jsx"></a>
+          <a href="/state" className="text-yellow-300">state</a>
       </div>
     </div>
   );
